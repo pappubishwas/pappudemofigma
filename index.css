@@ -1,0 +1,1108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+:root{
+    --yellow:#f9ca24;
+}
+*{
+    font-family:'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    outline:none;
+    border:none;
+  
+    text-transform: capitalize;
+    /* transition:all .2s linear; */
+}
+
+*::selection{
+    background:var(--yellow);
+    color:#333;
+}
+
+html{
+    font-size: 52%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+body{
+    background: white;
+    overflow-x: hidden;
+}
+
+/*Header Starts*/
+header{
+    top: 0;
+    left: 0;
+    min-height:100px;
+    width: 100%;
+    background:white;
+    display:inline-block;
+}
+header .logoimg input{
+    padding:1.3rem;
+    cursor:pointer;
+    text-align: center;
+    border:2px solid rgb(130, 128, 225);
+    border-radius: 3rem;
+    width: 250px;
+    margin-right: 45px;
+    justify-content: center;
+}
+#logoimg{
+    margin-right: 45px;
+}
+header .logoimg img{
+    height: 70px;
+    width: 120px;
+    justify-content: center;
+    text-align: center;
+}
+.logoimg {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul #cart{
+    display: inline-block;
+    padding:1rem;
+    margin:1.5rem 0;
+    color:#020202;
+    font-size:3rem;
+    border-radius:1rem;
+}
+.Key{
+    background-color: blue;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+header .navbar{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+header .navbar ul{
+    height:90px;
+    padding:1.5rem;
+    text-align:center;
+}
+header .navbar ul li a{
+    display: inline-block;
+    padding:0.8rem;
+    color:black;
+    font-size:2rem;
+    border-radius:5rem;
+}
+header .navbar ul li a:hover{
+    background: var(--yellow);
+}
+/* /Header Ends/ */
+
+
+
+
+.btn{
+    padding: .7rem 3rem;
+    background:var(--yellow);
+    color:#111;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius:5rem;
+    margin-top: 40rem;
+    margin-left: 5rem;
+    position: relative;
+    
+}
+
+.homemain button:hover{
+    color: #dec1c1;
+    background-color: #1f0909;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+section .homemain{
+    background-image: url("images/p1.png");
+    background-size:100% 100% ;
+    height: 80vh;
+    width: 100%;
+}
+
+
+
+
+
+/* Our services css */
+
+
+
+
+#ourservice{
+    background-color:rgb(255,255,255);
+    min-height: auto;
+}
+
+.ourservicehead{
+    text-align: center;
+    padding:4rem;
+}
+.ourservicehead h1{
+font-size: 4rem;
+}
+.ourservicehead p{
+font-size: 2rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid h1{
+    font-size:3rem;
+    padding-bottom:1rem;
+}
+.grid p{
+    font-size:1.8rem;
+    padding-bottom:1rem;
+}
+.size{
+    height: auto;
+    display:flex;
+    flex-direction: row;
+}
+.button {
+    background-color: #003EA7; /* Green */
+    border: circle;
+    color: white;
+    padding: 18px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 70%;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+section .grid .ourservicecard button:hover{
+    background: var(--yellow);
+    color: #111;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+.ourservicecard{
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 22px;
+}
+#ourservicecard{
+    margin: 3rem;
+    border-radius: 2rem;
+    background-color:#E9F1FF;
+}
+#ourservicecard img{
+padding:2rem;
+padding-left: 3.5rem;
+
+}
+
+
+
+
+/* Why us section */
+
+
+
+.whyusmain{
+    background-color:rgb(233,241,255);
+    min-height:auto;
+}
+.whymain{
+display: flex;
+flex-direction: row;
+}
+#whyus{
+    background-color:#E9F1FF;
+    height:500px;
+    width:100%;
+    margin: 3rem;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#whyus2nd h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+#whyus2nd p{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+#whyus2nd h3{
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: blue;
+}
+
+
+#whyus2nd{
+    width: 60%;
+    margin-left: 2rem;
+}
+
+#whyus img{
+    height: 100%;
+
+}   
+.cardlogowhy{
+margin: 1rem;    
+display: flex;
+flex-direction: row;
+}
+
+.logowhy img{
+    background-color: #fff;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.whyustittle{
+    text-align: center;
+    padding: 2rem;
+}
+.whyustittle p{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color:#E9F1FF;
+}
+
+
+
+/* latest section css */
+
+
+
+.latestnews{
+    min-height: 500px;
+    background-color:rgb(255,255,255);
+}
+
+.titlelatest{
+text-align: center;
+padding: 1rem;
+font-size: 2rem;
+padding-top: 6rem;
+
+}
+
+
+.cardlatest{
+min-height:auto;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.sidebyside{
+min-height:auto;
+width: 22%;
+margin: 2rem;
+border-radius: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: rgb(129, 197, 197);
+}
+
+
+.buttonlnews {
+background-color: #003EA7;
+color: white;
+width: 90%;
+padding: 10px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-left:1rem;
+margin: 1rem;
+justify-content: center;
+justify-items: center;
+cursor: pointer;
+border-radius: 1rem;
+}
+
+.latestnews button:hover{
+    background: var(--yellow);
+    color: #111;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.sidebyside img{
+    height: 60%;
+    width: 100%;
+    border-radius: 2rem;
+    
+}
+.sidebyside p{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+
+.veiwmore{
+    padding: .7rem 3rem;
+    width: 250px;
+    background-color: #003EA7;
+    color:#fff;
+    cursor: pointer;
+    font-size: 4rem;
+    border-radius:3rem;
+    margin-left: 40%;
+}
+
+
+
+/* About us section */
+
+
+
+section .aboutus{
+    background-color:rgb(250,250,250);
+    background-image: url("images/Frame54.svg");
+    text-align: center;
+    align-items: center;
+    color: #061C41;
+    font-size: 2rem;
+    min-height: 400px;
+    padding: 2rem;
+
+}
+
+section .aboutus p{
+    padding: 1rem;
+}
+h1{
+    font-weight:2rem;
+    font-size: 6rem;
+}
+
+
+
+
+
+/* What out customer say */
+
+
+
+section .customerreview{
+    text-align: center;
+    background-size:2500px;
+    min-height: auto;
+    width: 100%;
+    font-weight: bold;
+    background-image: url("images/Frame54.svg");
+}
+
+.what{
+    height:auto;
+    width: 45%;
+    margin: 3rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 8rem;
+    background-color:rgb(255,255,255);
+    border: #fff 0.5rem solid;
+    border-radius: 2rem;
+    
+}
+.what:hover{
+    
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+.mainwhat{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 3rem;
+    
+}
+.mainwhat img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 3rem;
+    border-radius: 10rem;
+    border: 5px solid #efcd11;
+}
+.mainwhat img:hover{
+
+    transition: 0.3s;
+    transform: scale(1.5);
+}
+
+section .fourdiv{
+    height:auto;
+    width: 22%;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.foundname{
+    height:auto;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    margin: 3rem;
+    margin-left: 10%;
+}
+
+.fourdiv:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+section .foundname img{
+    height: 100px;
+    width: 70%;
+    border:solid 0.2rem rgb(6,28,65);
+    border-radius: 2rem;
+}
+
+section .customerreview p{
+    font-size:2rem;
+    padding: 1rem;
+
+}
+
+
+.ourmajor{
+height: auto;
+margin-bottom: 5rem;
+width: 100%;
+}
+.ourmajor h1{
+padding: 0.5rem;
+}
+
+.ourcustomer{
+    padding: 3rem;
+}
+.customerreview h1{
+    font-size: 4rem;
+}
+
+
+
+
+
+/* 
+This section for .contact */
+
+
+
+.sectionabout{
+    background-color:#061C41;
+    min-height:400px;
+    width: 100%;
+    color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+    padding: 2rem;
+}
+
+#one{
+    background-color:#061C41;
+    min-height:400px;
+    color: white;
+    display: block;
+    padding: 2rem;
+
+
+}
+
+.sub3{
+    width: 30%;
+}
+
+section #one img{
+    height: 200px;
+    width: 200px;
+    
+}
+section #one p{
+padding: 1rem;
+font-size: 2rem;
+color: rgb(29, 160, 160);
+}
+section #one h1{
+
+margin-top: 10rem;
+font-size:3rem;
+padding-left: 1rem;
+
+}
+
+
+.Subscribebtn{
+    padding: .7rem 3rem;
+    background:var(--yellow);
+    color:#111;
+    cursor: pointer;
+    font-size: 4rem;
+    width: 30rem;
+    border-radius:3rem;
+    margin-left: 2rem;
+}
+
+section .sub3  button:hover{
+    background: #dec1c1;
+    color: #1f0909;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+section #one input{
+    padding:3rem;
+    cursor:pointer;
+    text-align: center;
+    border: 2px solid white;
+    background-color:#061C41;
+    color: #fff;
+    border-radius: 3rem;
+    width: 290px;
+    justify-content: center;
+}
+
+.sub3 h3{
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+
+}
+.sub3 h5{
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    color: rgb(29, 160, 160);
+}
+
+.sub3 a{
+    text-align: left;
+    padding: 1rem;
+    font-size: 3rem;
+    display:inline-block;
+    background-color:rgb(6,28,65);
+    border-radius: 3rem;
+    margin-left: 3rem;
+    
+}
+
+section .sub3 a:hover{
+    background: var(--yellow);
+    color: #111;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.sub3 #youtube{
+    color: rgb(196, 2, 2);
+}
+
+
+hr{
+    height: 0.1rem;
+    width: 1rem;
+
+    background-color: #E9F1FF;
+}
+.footer{
+    text-align: center;
+    font-size: 2rem;
+    background-color:#061C41;
+    color: #fff;
+    padding: 5rem;
+}
+
+
+
+
+
+#myDIV{
+
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+
+#myDIV hr{
+    background-color:#061C41;
+    height: 1px;
+    margin: 0.5rem;
+    width: 100%;
+}
+
+#trainhidden{
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+    
+}
+#train{
+    background-color: rgb(255, 255, 254);
+    height:650px;
+    width: 30%;
+    float :left;
+    
+    
+}
+
+#train p,h2{
+padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries */
+
+
+
+
+
+
+@media  (max-width:1000px){
+    html{
+        font-size: 48.5%;
+    }
+    html{
+        font-size: 48.5%;
+    }
+
+    header{
+        top: 0;
+        left: 0;
+        min-height: auto;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        background:white;
+        display:block;
+    }
+
+    #logoimg{
+        margin-right: 45px;
+    }
+
+    .logoimg {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+/* Header css ends here */
+    
+    .btn{
+        padding: .7rem 2rem;
+        font-size: 1.5rem;
+        border-radius:5rem;
+        margin-top: 30%;
+        margin-left: 2%;
+        position: relative;
+        
+    }
+    
+    
+    
+    section .homemain{
+        background-image: url("images/p1.png");
+        background-size:100% 100% ;
+        height: 40vh;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    /* Our services css */
+    
+    
+    
+    
+    
+    .ourservicehead{
+        text-align: center;
+        padding:4rem;
+    }
+    
+    .grid{
+        display: block;
+        margin-bottom:10rem;
+    }
+    .grid h1{
+        font-size:3rem;
+        padding-bottom:1rem;
+    }
+    .grid p{
+        font-size:1.6rem;
+        padding-bottom:1rem;
+    }
+    .size{
+        min-height: 200px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0rem;
+    
+    }
+    .button {
+        padding: 8px 45px;
+        font-size: 16px;
+        margin: 4px 2px;
+        width: 80%;
+
+    }
+    
+    
+    .ourservicecard{
+        width: 60%;
+        margin-top: 32px;
+    }
+
+
+    #ourservicecard{
+        margin: 1.5rem;
+        height: auto;
+        width: 20rem;
+    }
+    #ourservicecard img{
+    padding:2rem;
+
+    }
+    
+    
+    
+    
+    /* Why us section */
+    
+    
+    
+.whymain{
+min-height:500px;
+display:flex;
+flex-direction: column;
+    }
+    #whyus{
+        background-color:#E9F1FF;
+        min-height:300px;
+        width:95%;
+        margin-left: 5%;
+        margin-top: 5%;
+        display:flex;
+        flex-direction: column;
+    
+    
+    }
+    .logowhy img{
+        background-color: #fff;
+        height: 10rem;
+        width: 16rem;
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+
+    .whyusimg img{
+        justify-content: center;
+        height: 100%;
+        width: 70%;
+    }
+    
+    
+    /* latest section css */
+    
+    
+    
+    .cardlatest{
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .titlelatest{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    padding: 3rem;
+    
+    }
+    
+    
+    .sidebyside{
+    min-height:auto;
+    width: 80%;
+    margin: 1rem;
+    margin-left: 10%;
+    }
+    
+    
+    .buttonlnews {
+    width: 95%;
+    font-size: 16px;
+    margin-left:2.5%;
+
+    }
+
+    
+
+    .sidebyside p{
+        font-size: 1.7rem;
+        padding: 1.3rem;
+        font-weight: bold;
+    }
+    
+    
+    .veiwmore{
+        padding: .7rem 3rem;
+        width: 350px;
+        font-size: 3rem;
+        border-radius:3rem;
+        margin-left: 15%;
+        margin-bottom: 3rem;
+    }
+    
+    
+    
+    /* About us section */
+    
+    
+    section .aboutus{
+        font-size: 2rem;
+        min-height: auto;
+    
+    }
+
+    
+    
+    /* What out customer say */
+    
+    
+    
+    section .customerreview{
+        text-align: center;
+
+        height: auto;
+        width: 100%;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        background-image: url("images/Frame54.svg");
+    }
+    
+    .what{
+        height:auto;
+        width: 90%;
+        margin: 1rem;
+        text-align: center;
+
+        padding-top: 2rem;
+        margin-bottom: 8rem;
+        background-color: #fff;
+        border: #f4eeee 0.5rem solid;
+        border-radius: 2rem;
+        
+    }
+    .foundname{
+        height:auto;
+        width: 100%;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+     
+        margin-left: 8%;
+    }
+    
+    
+    
+    section .fourdiv{
+        height:auto;
+        width: 90%;
+        display:flex;
+
+    }
+    
+
+    .ourmajor{
+    height:60px;
+    width: 100%;
+    }
+
+    
+    
+    /* 
+    This section for .contact */
+    
+    .sectionabout{
+        background-color:#061C41;
+        min-height:400px;
+        width: 100%;
+        color: white;
+       display: flex;
+       flex-direction: column;
+        padding: 2rem;
+    }
+    
+
+    #one{
+        background-color:#061C41;
+        min-height:150px;
+        width: 90%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0.4rem;
+        text-align: center;
+        justify-content:center;
+    
+    }
+    
+    
+    section #one img{
+        height: 200px;
+        width: 200px;
+        margin-left: 25%;
+        justify-items: center;
+        justify-content: center;
+        
+    }
+    section #one p{
+    padding: 1rem;
+    font-size: 2rem;
+    color: rgb(29, 160, 160);
+    }
+    section #one h1{
+    
+    margin-top: 5rem;
+    font-size:3rem;
+    padding-left: 1rem;
+    
+    }
+    
+    
+    .Subscribebtn{
+        padding: .7rem 3rem;
+        background:var(--yellow);
+        color:#111;
+        cursor: pointer;
+        font-size: 4rem;
+        width: 80%;
+        border-radius:3rem;
+        margin-left: 15%;
+    }
+    
+    
+    section #one input{
+        padding:3rem;
+        cursor:pointer;
+        width: 90%;
+        margin-left: 10%;
+        text-align: center;
+        border: 2px solid white;
+        background-color:#061C41;
+        color: #fff;
+        border-radius: 3rem;
+        justify-content: center;
+    }
+
+    
+    .sub3 a{
+        width: 6rem;
+        padding: 1.5rem;
+        text-align: center;
+        font-size: 3rem;
+        display:inline-block;
+        justify-content:space-evenly;
+        background-color:#f3e3e3;
+        border-radius: 3rem;
+        margin-bottom: 3rem;
+        
+    }
+    
+
+    
+    
+    .footer{
+        text-align: center;
+        font-size: 2rem;
+        background-color:#061C41;
+        color: #fff;
+        padding: 5rem;
+    }
+    
+    
+
+    
+    #train{
+        background-color: #fff;
+        height:auto;
+        width: 100%;
+        display:flex;
+        padding: 2rem;
+        flex-direction: column;
+        
+        
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .whyusimg img{
+        justify-content: center;
+        width: 100%;
+    }
+}
